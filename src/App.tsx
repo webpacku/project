@@ -9,7 +9,7 @@ const router = createRouter({
     routeTree,
     context: {
         session: {
-            isLogin: false // Atau nilai default yang sesuai
+            isLogin: true // Atau nilai default yang sesuai
         }
     },
     defaultNotFoundComponent: () => (
